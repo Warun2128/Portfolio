@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Kumar Reddy Gujja - Data Analyst Portfolio</title>
+    <meta name="description" content="Professional data analyst portfolio showcasing advanced Tableau visualizations and analytics expertise across healthcare, finance, and sales domains.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+    <!-- Navigation -->
+    <nav class="nav-header" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-name">VKR Gujja</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <div class="nav-hamburger" id="nav-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <!-- Data visualization elements for background -->
+            <div class="data-viz-element data-bar-chart" style="top: 15%; left: 8%; --delay: 0s"></div>
+            <div class="data-viz-element data-line-graph" style="top: 25%; right: 10%; --delay: 2s"></div>
+            <div class="data-viz-element data-pie-chart" style="bottom: 10%; left: 15%; --delay: 4s"></div>
+            <div class="data-viz-element data-scatter-plot" style="top: 40%; left: 25%; --delay: 6s"></div>
+            <div class="data-viz-element data-grid" style="top: 60%; right: 5%; --delay: 8s"></div>
+            <div class="data-viz-element data-flow" style="top: 5%; left: 60%; --delay: 1s"></div>
+            <div class="data-viz-element data-dashboard" style="bottom: 25%; left: 65%; --delay: 3s"></div>
+            <div class="data-viz-element data-bar-chart" style="top: 50%; left: 5%; --delay: 9s"></div>
+            <div class="data-viz-element data-line-graph" style="bottom: 5%; right: 20%; --delay: 11s"></div>
+            <div class="data-viz-element data-pie-chart" style="top: 30%; right: 25%; --delay: 13s"></div>
+            <div class="data-viz-element data-grid" style="bottom: 40%; left: 30%; --delay: 15s"></div>
+            <div class="data-viz-element data-flow" style="top: 70%; right: 40%; --delay: 17s"></div>
+            <div class="data-viz-element data-scatter-plot" style="top: 10%; left: 40%; --delay: 19s"></div>
+            <div class="data-viz-element data-dashboard" style="bottom: 15%; left: 50%; --delay: 21s"></div>
+            <div class="data-viz-element data-bar-chart" style="top: 80%; right: 15%; --delay: 23s"></div>
+            <div class="data-viz-element data-line-graph" style="top: 5%; left: 20%; --delay: 25s"></div>
+            <div class="data-viz-element data-grid" style="bottom: 50%; right: 30%; --delay: 27s"></div>
+            <div class="data-viz-element data-pie-chart" style="top: 60%; left: 70%; --delay: 29s"></div>
+            <div class="data-viz-element data-flow" style="bottom: 30%; left: 5%; --delay: 31s"></div>
+            <div class="data-viz-element data-scatter-plot" style="top: 20%; right: 50%; --delay: 33s"></div>
+            <div class="data-viz-element data-bar-chart" style="top: 45%; right: 5%; --delay: 35s"></div>
+            <div class="data-viz-element data-line-graph" style="bottom: 10%; left: 40%; --delay: 37s"></div>
+            <div class="data-viz-element data-pie-chart" style="top: 70%; left: 20%; --delay: 39s"></div>
+            <div class="data-viz-element data-grid" style="bottom: 20%; right: 60%; --delay: 41s"></div>
+            <div class="data-viz-element data-flow" style="top: 10%; right: 30%; --delay: 43s"></div>
+            <div class="data-viz-element data-dashboard" style="bottom: 5%; left: 80%; --delay: 45s"></div>
+            <div class="data-viz-element data-scatter-plot" style="top: 85%; left: 10%; --delay: 47s"></div>
+        </div>
+        <div class="hero-content">
+            <!-- Removed hero-avatar div -->
+            <h1 class="hero-name">Varun Kumar Reddy Gujja</h1>
+            <h2 class="hero-title">Data Analyst & Tableau Specialist</h2>
+            <p class="hero-subtitle">Transforming Complex Data into Actionable Business Insights</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">Optimized</span>
+                    <span class="stat-label">Data Transformation</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Industry Domains</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+            <button class="btn btn--primary hero-cta" onclick="smoothScrollTo('projects')">
+                Explore My Work
+            </button>
+        </div>
+    </section>
+
+    <!-- Projects Overview -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Comprehensive analytics solutions across healthcare, finance, and sales domains</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Patient Readmission Analysis -->
+                <div class="project-card" data-project="1">
+                    <div class="project-card-header">
+                        <div class="project-domain">Healthcare Analytics</div>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Patient Readmission Analysis</h3>
+                        <p class="project-description">Analyzing 30-day hospital readmissions to improve patient outcomes and reduce healthcare costs</p>
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Predictive Analytics</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="project-impact">Cost Savings Potential</span>
+                        <button class="btn btn--outline project-cta">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Project 2: COVID-19 Impact Assessment -->
+                <div class="project-card" data-project="2">
+                    <div class="project-card-header">
+                        <div class="project-domain">Healthcare Analytics</div>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">COVID-19 Impact Assessment</h3>
+                        <p class="project-description">Analyzing COVID-19's multi-dimensional impact on healthcare systems and recovery patterns</p>
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Public Health</span>
+                            <span class="tag">Time Series</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="project-impact">Operational Savings</span>
+                        <button class="btn btn--outline project-cta">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Project 3: Investment Portfolio Performance -->
+                <div class="project-card" data-project="3">
+                    <div class="project-card-header">
+                        <div class="project-domain">Financial Analytics</div>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">Investment Portfolio Performance</h3>
+                        <p class="project-description">Optimizing investment strategies through comprehensive market analysis and risk assessment</p>
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Finance</span>
+                            <span class="tag">Risk Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="project-impact">Improved Returns</span>
+                        <button class="btn btn--outline project-cta">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Project 4: E-commerce Performance Optimization -->
+                <div class="project-card" data-project="4">
+                    <div class="project-card-header">
+                        <div class="project-domain">Sales & Marketing Analytics</div>
+                    </div>
+                    <div class="project-card-body">
+                        <h3 class="project-title">E-commerce Performance Optimization</h3>
+                        <p class="project-description">Driving revenue growth through data-driven sales strategy and customer behavior analysis</p>
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Sales Analytics</span>
+                            <span class="tag">Customer Segmentation</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="project-impact">Accelerated Revenue Growth</span>
+                        <button class="btn btn--outline project-cta">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Detail Modals -->
+    <div class="project-modal" id="project-modal">
+        <div class="modal-overlay" onclick="closeProjectModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProjectModal()">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+        </div>
+    </div >
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        Experienced data analyst with 4+ years of experience in transforming complex datasets into actionable business insights. Adept at leveraging SQL, Python, R, and cloud platforms (AWS, Azure, GCP) to drive data-driven decision-making and optimize business performance. Proven ability to design and implement scalable ETL pipelines, predictive models, and interactive dashboards to support enterprise analytics. Skilled in various tools to create compelling dashboards and reports, improving business intelligence and stakeholder decision-making. Experienced in building efficient ETL workflows, ensuring seamless data transformation, integration, and automation across multiple platforms. Proficient in cloud technologies, optimizing data storage, processing, and real-time analytics. Strong foundation in various analytical models, using Python and R to develop insights that enhance operational efficiency. Adept at working in Agile (Scrum & Kanban) and Waterfall environments, collaborating with stakeholders, business teams, and engineering groups to align data strategy with business objectives and ensure seamless project execution.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <h3>Experience</h3>
+                            <p>4+ years in data analytics with expertise in cross-industry analysis</p>
+                        </div>
+                        <div class="highlight">
+                            <h3>Education</h3>
+                            <p>Master of Science in Data Science from Lewis University</p>
+                        </div>
+                        <div class="highlight">
+                            <h3>Location</h3>
+                            <p>Aurora, Illinois, United States</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="competency-chart">
+                        <h3>Core Competencies</h3>
+                        <div class="competency-items">
+                            <div class="competency-item">
+                                <span>Data Visualization</span>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="competency-item">
+                                <span>Statistical Analysis</span>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="competency-item">
+                                <span>Business Intelligence</span>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="competency-item">
+                                <span>Data Storytelling</span>
+                                <div class="competency-bar">
+                                    <div class="competency-fill" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Comprehensive skill set across analytics tools and industry domains</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Analysis & Statistical Modeling</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Data Cleaning</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">EDA</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Statistical Analysis</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Predictive Modeling</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming & Scripting</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python (Pandas, NumPy, Scikit-learn, TensorFlow)</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">R (ggplot2, dplyr, tidyr)</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PySpark</span>
+                            <span class="skill-level">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Visualization</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Tableau</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Looker</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Matplotlib & Seaborn</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">ETL & Data Engineering</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SSIS</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Talend</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Apache Airflow</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Alteryx</span>
+                            <span class="skill-level">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Cloud & Big Data Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">AWS (S3, Redshift, Glue, Lambda, Athena)</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Azure (Data Factory, Synapse Analytics, Databricks)</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Google Cloud Platform (BigQuery)</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Databases & Data Warehousing</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Snowflake</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL, PostgreSQL, SQL Server, Oracle</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB, Firebase</span>
+                            <span class="skill-level">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Business & Domain Expertise</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Healthcare Analytics</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Financial Data Analysis</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Risk Analytics</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Business Intelligence</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="skill-category">
+                    <h3 class="skill-category-title">Methodologies & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Agile (Scrum & Kanban)</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Waterfall</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Jira, Confluence</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                         <div class="skill-item">
+                            <span class="skill-name">Git/GitHub</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Other Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Advanced Excel</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MS Visio</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SAP for Data Extraction</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Operating Systems (Windows, Linux, macOS)</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">A detailed look at my professional journey and contributions</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card fade-in">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Data Analyst</h3>
+                        <span class="experience-date">July 2024 - Present</span>
+                    </div>
+                    <div class="experience-company">Universal Health Services, United States</div>
+                    <ul class="experience-description">
+                        <li>Spearheaded data modeling and database expansion by conducting Joint Application Development (JAD) sessions, collaborating with stakeholders to define data structures and optimize data flow.</li>
+                        <li>Designed and implemented ETL pipelines using SQL, Python, and Talend, improving data retrieval speed and enhancing data integrity across key analytics platforms.</li>
+                        <li>Developed and enforced a data quality framework, reducing data entry errors and improving accuracy for patient records and hospital operations.</li>
+                        <li>Built interactive Power BI dashboards for executive leadership, enabling real-time monitoring of healthcare metrics, leading to a reduction in operational overhead costs.</li>
+                        <li>Automated compliance tracking for Request for Proposal (RFP) submissions, increasing federal funding approval rates by integrating federal prior approval criteria into analytics workflows.</li>
+                        <li>Conducted data-driven insights on Electronic Medical Records (EMR) and hospital applications, identifying key inefficiencies and driving process improvements, resulting in a boost in user satisfaction scores.</li>
+                    </ul>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Data Analyst</h3>
+                        <span class="experience-date">October 2020 - February 2023</span>
+                    </div>
+                    <div class="experience-company">Experion Technologies, India</div>
+                    <ul class="experience-description">
+                        <li>Collaborated with cross-functional teams to gather business requirements, translating them into actionable data models within a Waterfall framework, improving project documentation accuracy.</li>
+                        <li>Designed and deployed AWS-based data backup and disaster recovery strategies, increasing data reliability while enhancing business continuity measures.</li>
+                        <li>Engineered dynamic Tableau and Power BI dashboards, enabling C-level executives to visualize real-time business performance metrics, resulting in faster decision-making.</li>
+                        <li>Optimized data transformation processes using NumPy and Pandas, reducing data processing time, allowing faster insights and increased team responsiveness.</li>
+                        <li>Built predictive models leveraging Databricks, Random Forest, and K-Means Clustering, achieving higher targeted marketing campaign effectiveness and improving customer engagement.</li>
+                        <li>Developed regression analysis models to forecast future trends, optimizing resource allocation and market strategy development.</li>
+                        <li>Integrated ETL workflows using SSIS and Talend, ensuring seamless data movement across multiple platforms, increasing data availability.</li>
+                        <li>Automated SAP-based data extraction processes, reducing manual reporting errors and increasing operational efficiency.</li>
+                        <li>Extracted, cleaned, and analyzed large datasets using SQL (MySQL, PostgreSQL, Oracle), ensuring more accurate decision-making and reducing inconsistencies in business intelligence reports.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Certifications</h2>
+                <p class="section-subtitle">My academic background and professional qualifications</p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card fade-in">
+                    <h3 class="education-title">Master of Science in Data Science</h3>
+                    <p class="education-institution">Lewis University</p>
+                    <p class="education-GPA">3.8</p>
+                    <p class="education-date">March 2023 - December 2024</p>
+                    <p class="education-location">Romeoville, IL</p>
+                </div>
+                <div class="education-card fade-in">
+                    <h3 class="education-title">Certifications</h3>
+                    <ul class="certifications-list">
+                        <li>SQL for Data Science</li>
+                        <li>Machine Learning: Regression</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="contact-description">
+                        Ready to transform your data into actionable insights? Let's discuss how my analytics expertise can drive your business forward.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-icon">📧</span>
+                            <span>varun@jobtechit.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">📍</span>
+                            <span>United States</span>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">💼</span>
+                            <span>Open to new opportunities</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank" aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                        <a href="#" class="social-link" target="_blank" aria-label="GitHub">
+                            <span class="social-icon">💻</span>
+                        </a>
+                        <a href="#" class="social-link" target="_blank" aria-label="Email">
+                            <span class="social-icon">✉️</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Varun Kumar Reddy Gujja. All rights reserved.</p>
+                <p>Transforming data into insights, one visualization at a time.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
