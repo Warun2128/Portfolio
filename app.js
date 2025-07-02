@@ -41,7 +41,7 @@ const projectData = {
     technicalImplementation: "Real-time data connections, forecasting algorithms using exponential smoothing, custom map layers for geographic analysis, and advanced parameter controls for scenario modeling.",
     businessImpact: "Improved healthcare resource allocation saving operational costs and enabling data-driven policy decisions during crisis management.",
     graphImages: [
-      "2.jpg" 
+      "2.png" 
     ]
   },
   3: {
@@ -62,7 +62,7 @@ const projectData = {
     technicalImplementation: "Complex calculated fields for financial ratios, custom date parameters for backtesting, advanced statistical functions, and integration with real-time market data feeds.",
     businessImpact: "Investment portfolio optimization resulting in improved risk-adjusted returns and reduced portfolio volatility through systematic rebalancing strategies.",
     graphImages: [
-      "3.jpg" 
+      "3.png" 
     ]
   },
   4: {
